@@ -4,6 +4,32 @@ Status Monitoring service is a python web service that allows you to view a stat
 ## Applications
 Your job is to build a web application or something similar in order to send requests to your servers and display the results returned from the web service. In addition to this, you can also create an application to log a status of processes running on your servers by sending monitoring requests periodically and storing the results for further analysis.
 
+## Usage
+```
+python3 stat-mon.py &
+```
+
+## API
+- return its health check
+```
+/ping   # GET method
+```
+- return an input string
+```
+/echo/<input string>    # GET method
+```
+- return a status of a process
+```
+/status/<process name>  # GET method
+```
+- with a basic authentication, you need to specify username and password in a header of a request
+```
+...
+Content-type: application/json
+Authorization:  Basic <base64>
+...
+```
+
 ## Dependencies
 - python 3
 and

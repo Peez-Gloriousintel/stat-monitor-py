@@ -6,7 +6,7 @@ Your job is to build a web application or something similar in order to send req
 
 ## Usage
 ```
-python3 stat-mon.py &
+$ python3 stat-mon.py &
 ```
 
 ## API
@@ -35,7 +35,7 @@ Authorization:  Basic <base64>
 and
 - web.py
 ```
-sudo easy_install web.py
+$ sudo easy_install web.py
 ```
 
 ## Configuration

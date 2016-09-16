@@ -1,9 +1,7 @@
-#
-# @name: stat-mon.py
-# @author: pj4dev.mit@gmail.com
-# @url: https://github.com/pj4dev/stat-monitor-py
-#
-
+''' 
+@author: pj4dev.mit@gmail.com
+@url: https://github.com/Peez-Gloriousintel/stat-monitor-py
+'''
 import web
 import json
 import configparser as cparser

@@ -1,6 +1,6 @@
 ''' 
 @author: pj4dev.mit@gmail.com
-@url: https://github.com/Peez-Gloriousintel/stat-monitor-py
+@url: https://github.com/pj4dev/stat-monitor-py
 '''
 import web
 import json
@@ -136,7 +136,7 @@ if __name__ == "__main__":
 
 	print('Status Monitoring Server v1.0.0')
 	print('by Peez Gloriousintel')
-	print('see more at https://github.com/Peez-Gloriousintel/stat-monitor-py')
+	print('see more at https://github.com/pj4dev/stat-monitor-py')
 	print('===========================================')
 
 	Initialize()
